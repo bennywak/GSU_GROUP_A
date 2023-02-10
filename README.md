@@ -30,10 +30,7 @@ which R
 which python3
 /usr/local/bin/python3
 
-which php
-/usr/bin/php
+which Java_script
+/usr/bin/java
 
-# Remember your location may vary ! Whatever the location is just add it to the title.
-On your terminal. Having found the path to either the compiler or interpreter then check the shebang (e.g #!/usr/local/bin/bash) of the individual script and edit it to suit your local machine.
 
-The links provided under languages can be a quick way for you to download various softwares for you. Sanger_script.sh is for submission to our supervisors.

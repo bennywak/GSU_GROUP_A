@@ -16,3 +16,4 @@ Names of group members includes:
 |   3    | Hickson Clinton Eyyammeh          | UG17/MDHA/1005          | Python           |
 
 # Workflow
+![FLOWCHART](https://user-images.githubusercontent.com/120460943/218061521-2f7a8018-ee58-4eff-8306-bf18ed1c4d13.png)

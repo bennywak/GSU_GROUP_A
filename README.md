@@ -17,3 +17,23 @@ Names of group members includes:
 
 # Workflow
 ![FLOWCHART](https://user-images.githubusercontent.com/120460943/218061521-2f7a8018-ee58-4eff-8306-bf18ed1c4d13.png)
+
+# HELP
+To execute the scripts from this repository, a general script is provided that contains information on cloning the repository itself. Using git clone followed by the link to the repository allows you to clone. Upon cloning, it will provide command to change the directory from the current repository to the Team_Sanger Repository. To execute the scripts, you need to add rights to execute which can be achieved by chmod +x script. A for loop is provided that helps loop through each and every script and execute as per the commands within the loop.
+
+Note: You need to install all the softwares listed above for the scripts to be executed. In case you bump into an error of bad interpreter when executing the scripts. Check the location of your executable using this example command as shown below:
+
+# For example
+which R
+/usr/local/bin/R
+
+which python3
+/usr/local/bin/python3
+
+which php
+/usr/bin/php
+
+# Remember your location may vary ! Whatever the location is just add it to the title.
+On your terminal. Having found the path to either the compiler or interpreter then check the shebang (e.g #!/usr/local/bin/bash) of the individual script and edit it to suit your local machine.
+
+The links provided under languages can be a quick way for you to download various softwares for you. Sanger_script.sh is for submission to our supervisors.

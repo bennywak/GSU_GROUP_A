@@ -1,0 +1,50 @@
+this is the csv file for GROUP A
+
+
+
+the command below clones the github
+https://github.com/bennywak/GSU_GROUP_A.git
+
+
+
+
+DELL@DESKTOP-GDIB67A MINGW64 ~
+$ cd desktop
+
+DELL@DESKTOP-GDIB67A MINGW64 ~/desktop
+$ cd csv
+
+DELL@DESKTOP-GDIB67A MINGW64 ~/desktop/csv
+$ git clone https://github.com/bennywak/GSU_GROUP_A.git
+Cloning into 'GSU_GROUP_A'...
+remote: Enumerating objects: 25, done.
+remote: Counting objects: 100% (25/25), done.
+remote: Compressing objects: 100% (22/22), done.
+remote: Total 25 (delta 10), reused 12 (delta 2), pack-reused 0
+Receiving objects: 100% (25/25), 5.52 KiB | 1.38 MiB/s, done.
+Resolving deltas: 100% (10/10), done.
+
+DELL@DESKTOP-GDIB67A MINGW64 ~/desktop/csv
+$ ls
+GSU_GROUP_A/
+
+DELL@DESKTOP-GDIB67A MINGW64 ~/desktop/csv
+$ cd GSU_GROUP_A
+
+DELL@DESKTOP-GDIB67A MINGW64 ~/desktop/csv/GSU_GROUP_A (master)
+$ ls
+GSU_GROUP_A.csv  index.html          script_dalbadal.R
+README.md        script_Clinton.py*  script_okashatu.js
+
+DELL@DESKTOP-GDIB67A MINGW64 ~/desktop/csv/GSU_GROUP_A (master)
+$ git remote -v
+origin  https://github.com/bennywak/GSU_GROUP_A.git (fetch)
+origin  https://github.com/bennywak/GSU_GROUP_A.git (push)
+
+DELL@DESKTOP-GDIB67A MINGW64 ~/desktop/csv/GSU_GROUP_A (master)
+$ touch gen.csv
+
+DELL@DESKTOP-GDIB67A MINGW64 ~/desktop/csv/GSU_GROUP_A (master)
+$ ls
+GSU_GROUP_A.csv  gen.csv     script_Clinton.py*  script_okashatu.js
+README.md        index.html  script_dalbadal.R
